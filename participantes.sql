@@ -1,0 +1,16 @@
+CREATEDATABASE IF NOT EXISTS evento;
+USE evento;
+CREATE TABLE IF NOT EXISTS asistentes(expediente VARCHAR(100), correo VARCHAR(255));
+INSERT INTO asistentes (expediente, correo) VALUES ('1', 'a1@unison.mx');
+INSERT INTO asistentes (expediente, correo) VALUES ('2', 'a2@unison.mx');
+INSERT INTO asistentes (expediente, correo) VALUES ('3', 'a3@unison.mx');
+INSERT INTO asistentes (expediente, correo) VALUES ('4', 'a4@unison.mx');
+INSERT INTO asistentes (expediente, correo) VALUES ('5', 'a5@unison.mx');
+INSERT INTO asistentes (expediente, correo) VALUES ('6', 'a6@unison.mx');
+INSERT INTO asistentes (expediente, correo) VALUES ('z221201308', 'az221201308@unison.mx');
+INSERT INTO asistentes (expediente, correo) VALUES ('232318', 'a232318@unison.mx');
+INSERT INTO asistentes (expediente, correo) VALUES ('221201308', 'a221201308@unison.mx');
+INSERT INTO asistentes (expediente, correo) VALUES ('228394', 'a228394@unison.mx');
+INSERT INTO asistentes (expediente, correo) VALUES ('2001921', 'a2001921@unison.mx');
+INSERT INTO asistentes (expediente, correo) VALUES ('2932931', 'a2932931@unison.mx');
+;
